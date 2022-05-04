@@ -1,0 +1,37 @@
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.btn-primary:disabled {
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.smallPwdCheckMessage {
+  display: block;
+}
+
+.smallPwdCheckMessage.error {
+  color: red;
+}
+
+.smallPwdCheckMessage.success {
+  color: green;
+}
+
+.smallPwdCheckMessage.error:before {
+  content: "\274C";
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.smallPwdCheckMessage.success:before {
+  content: "\2713";
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 10px;
+}
